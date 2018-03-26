@@ -1,0 +1,386 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'title';
+    src: url('fonts/BebasKai-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'kozuka';
+    src: url('fonts/KozGoPr6N-Regular.otf') format('opentype');
+}
+
+body{
+    font-family: 'kozuka';
+}
+
+nav {
+    height: 87px;
+}
+
+a:hover{
+    opacity: 0.8;
+}
+
+.nav h1 {
+    font-family: 'title';
+    font-size: 43px;
+    float: right;
+    line-height: 87px;
+    margin-right: 24px;
+}
+
+.nav_btn {
+    float: right;
+    margin-right: 37px;
+}
+
+.nav img {
+    width: 48.3px;
+    padding: 19px 2px;
+}
+
+header img {
+    width: 100%;
+    vertical-align: bottom;
+}
+
+section{
+    text-align: center;
+}
+
+#section1 {
+    background-image: url(images/section1.png);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 50px;
+}
+
+.text {
+    float: left;
+    padding-left: 70px;
+    text-align: left;
+}
+
+.text h2 {
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.text p {
+    width: 530px;
+    font-size: 11.3px;
+    letter-spacing: 1px;
+}
+
+.title {
+    float: left;
+    margin: 0 40px;
+}
+
+.title_bg {
+    width: 183px;
+    height: 183px;
+    background-color: #96D2DB;
+    position: relative;
+    transform: rotate(45deg);
+}
+
+.title_tx {
+    font-family: 'title';
+    color: #fff;
+    letter-spacing: 0.1em;
+    font-size: 43px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%) rotate(-45deg);
+    -webkit- transform: translateY(-50%) translateX(-50%) rotate(-45deg);
+}
+
+.section_wrapper{
+    display: inline-block;
+    margin: 0 auto;
+    padding: 100px 0 50px;
+    overflow: hidden;
+}
+
+#section3 .section_wrapper{
+    padding: 0;
+}
+
+#section4 .section_wrapper{
+    padding: 0;
+}
+
+.subscription{
+    width: 135px;
+    margin: 0 auto;
+    display: block;
+    text-decoration: none;
+}
+
+.subscription p{
+    width: 135px;
+    font-size: 17px;
+    color: #4690F0;
+    text-align: center;
+}
+
+.subscription img{
+    width: 135px;
+}
+
+#section2{
+    background-image: url(images/section2.png);
+    background-size: cover;
+    color: #fff;
+    overflow: hidden;
+    padding-bottom: 88px;
+}
+
+#section2 .title_bg{
+    background-color: #fff;
+}
+
+#section2 .title_tx{
+    color: #77BDE5;
+}
+
+#section2 .subscription p{
+    color: #fff;
+}
+
+.box_all{
+    width: 830px;
+    margin: 0 auto;
+    padding: 30px 0 90px;
+}
+
+.box{
+    border: 5px #fff dotted;
+    width: 300px;
+    height: 370px;
+    padding: 40px;
+    text-align: center;
+    float: left;
+}
+
+.box img{
+    height: 238px;
+}
+
+.box h3{
+    font-size: 19px;
+    font-weight: normal;
+    text-align: left;
+    padding: 22px 0;
+}
+
+.box p{
+    font-size: 11px;
+    text-align: left;
+    line-height: 22px;
+}
+
+#section3{
+    background-image: url(images/section3.png);
+    background-size: cover;
+    background-position: center;
+    padding: 50px 50px 20px;
+}
+
+#section3 .title{
+    clear: both;
+    margin: 40px 40px 80px 40px;
+}
+
+#section3 .title_bg{
+    background-color: #5475C7;
+}
+
+.line{
+    float: left;
+}
+
+.toukou{
+    width: 281px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+    padding: 20px 0 31px;
+    margin: 10px 10px 40px;
+    clear: both;
+    background-color: #fff;
+}
+
+.account img{
+    width: 27px;
+    float: left;
+}
+
+.account p{
+    font-size: 15.5px;
+    line-height: 27px;
+    padding-left: 13px;
+    float: left;
+}
+
+.account{
+    width: 234px;
+    clear: both;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.toukou_img{
+    width: 234px;
+    margin: 11px auto 26px;
+    display: block;
+}
+
+.toukou_p{
+    width: 234px;
+    margin: 0 auto;
+    font-size: 8.4px;
+    line-height: 17px;
+    text-align: left;
+}
+
+#section4{
+    background-image: url(images/section4.png);
+    background-size: cover;
+    padding: 50px 30px 58px;
+}
+
+#section4 .title{
+    margin:85px 60px;
+}
+
+#section4 .title_bg{
+    background-color: #F0FFFF;
+}
+
+#section4 .title_tx{
+    color: #95D1CF;
+}
+
+#section4 span{
+    padding-right: 0.3em;
+}
+
+.step_bg{
+    width: 660px;
+    overflow: hidden;
+    background-image: url(images/step_bg.png);
+    background-size: cover;
+}
+
+.step{
+    float: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 363px;
+}
+
+.step_in{
+    text-align: center;
+    color: #323232;
+    width: 200px;
+}
+
+.step_in h1{
+    font-family: 'title';
+    font-size: 37.7px;
+    padding: 20px 0;
+    letter-spacing: 2px;
+}
+
+.step_in p{
+    width: 152px;
+    margin: 0 auto;
+    font-size: 11.3px;
+    text-align: left;
+}
+
+.step_in img{
+    width: 152px;
+}
+
+#section5 .title_bg{
+    background-color: #EFA9CE;
+}
+
+#section5 .text h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#section6{
+    padding-bottom: 65px;
+}
+
+#section6 .title_bg{
+    background-color: #68C7BF;
+}
+
+#section6 .text h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#section6 .title{
+    margin: 40px;
+    opacity: 0.5;
+}
+
+.btn img{
+    width: 35.7px;
+    margin-right: 15px;
+}
+
+footer{
+    padding: 30px 0;
+}
+
+.center{
+    padding: 0 17px;
+    margin: 0 17px;
+    border-left: 1px #000 solid;
+    border-right: 1px #000 solid;
+}
+
+footer{
+    text-align: center;
+    background-color: #F0F0F0;
+}
+
+footer a{
+    color: #000;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+footer p{
+    font-size: 9px;
+    padding-top: 10px;
+}
+
+footer img{
+    width: 147px;
+    padding-top: 26px;
+}
+
+.section56{
+    background-image: url(images/section56_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media (min-width:1024px) {
+    .section56{
+    background-image: url(images/section56_2_bg.png);
+}
+}
